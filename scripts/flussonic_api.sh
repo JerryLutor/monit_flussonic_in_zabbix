@@ -2,7 +2,7 @@
 # Author: Eynikov S.V.
 
 STIME=$(date +%s)
-source /usr/libexec/zabbix-extensions/scripts/flussonic.cfg
+source /etc/zabbix/externalscripts/flussonic.cfg
 
 rm -f -R "${MEDIA_DIR}"
 if ! [ -d ${TMP_DIR} ]; then
