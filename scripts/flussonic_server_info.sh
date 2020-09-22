@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Author: Eynikov S.V.
 
-source /usr/libexec/zabbix-extensions/scripts/flussonic.cfg
+source /etc/zabbix/externalscripts/flussonic.cfg
 HEADER_CONTENT_TYPE="Content-Type: application/json"
 
 BLOCK_FILE="${TMP_DIR}/loadblock"
